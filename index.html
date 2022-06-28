@@ -1,0 +1,60 @@
+<!-- GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and my score -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Timed-Quiz</title>
+</head>
+<body>
+
+    <div class = "time" id = "timer"> Time: </div>
+
+    <div id = "Main-Questions" >
+        <div id = "quizStartContent"> 
+        <h1> Code Quiz Challenge </h1>
+        <h3>Try to answer the following code-related question within the time limit. Keep in mind that incorrect 
+        answers will penalize your score/time by 5 seconds!</h3>
+        <h4>Click START to begin</h4>
+        <button type = "click" id = "start"> Start </button>
+    </div>
+        <div id="questions-div"></div>
+            <button type = "click" class = "answertext hide" id="answer-A"> A </button>
+            <button type = "click" class = "answertext hide" id="answer-B"> B </button>
+            <button type = "click" class = "answertext hide" id="answer-C"> C </button>
+            <button type = "click" class = "answertext hide" id="answer-D"> D </button>
+
+    </div>
+        
+
+    <div id = "Scores" class="hide">
+        <h1>  High-Scores </h1>
+        <input type = "text" id = "initial-input"/>
+        <button type = "button" id = "initialbtn"> Save Score </button>
+        <div>
+            <ul id = "top-scores" ></ul>
+        </div>
+    </div> 
+  
+    
+
+
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>

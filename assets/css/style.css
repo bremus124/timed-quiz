@@ -1,0 +1,47 @@
+:root{
+    background: url(questionmark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+} 
+
+.hide{
+    display: none;
+}
+
+.unhide{
+    display: block;
+}
+
+
+
+ #start {
+    background-color: black;
+    border-style: groove;
+    border-width: 7px;
+    border-color: white;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+#answer-A, #answer-B, #answer-C, #answer-C, #answer-D {
+    background-color: black;
+    border-style: groove;
+    border-width: 7px;
+    border-color: white;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#questions-div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
