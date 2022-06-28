@@ -1,4 +1,4 @@
-:root{
+:root {
     background: url(questionmark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,14 @@
     display: block;
 }
 
+.time {
+    padding-top: 15%;
+}
 
+h1, h3, h4 {
+    text-align: center;
+    padding-top: 3%;
+}
 
  #start {
     background-color: black;
@@ -34,14 +41,16 @@
     border-width: 7px;
     border-color: white;
     color: white;
-    padding: 10px 60px;
+    padding: 18px 65px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+    justify-content: space-between;
 
 }
 
 #questions-div{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 24px;
+    padding-top: 5%;
 }

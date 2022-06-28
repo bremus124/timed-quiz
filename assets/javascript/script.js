@@ -49,7 +49,7 @@ var questionObj = [
     {
         question: 'String values must be enclosed within ____ when being assigned to variables.',
         answers: ["Commas", "Curly brackets", "Quotes", "Parenthesis"],
-        correctaAnswer: "Quotes",
+        correctAnswer: "Quotes",
     },
     {  
         question: 'What is the first index in an array?',
