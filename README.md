@@ -1,5 +1,5 @@
 # Timed-Quiz Challenge 
-- Built a timed coding quiz with multiple-choice questions that runs in the browser and will features dynamically updated HTML and CSS powered by JavaScript code.Itis a clean, polished, and responsive user interface written code.
+- Built a timed coding quiz with multiple-choice questions that runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. It is a clean, polished, and responsive user interface written code.
 --
 ## Author
 
@@ -7,7 +7,8 @@
 --
 ## Screenshot
 
-![Screenshot](screenshotport.png)
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
 --
 ## Deployment
 
